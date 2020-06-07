@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
-    "dev": "node index.js"
+    "dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -26,5 +26,8 @@
   "homepage": "https://github.com/rhildred/es6test#readme",
   "dependencies": {
     "express": "*"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
   }
 }
