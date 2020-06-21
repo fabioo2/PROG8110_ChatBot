@@ -9,6 +9,11 @@
     font-family: sans-serif;
 }
 
+#messages a {
+    color: white;
+    text-decoration: underline;
+}
+
 html{
     background-color: #f3f5f6;
 }
